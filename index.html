@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo-principal">Gerenciador de Tarefas</h1>
+    </header>
+    <main>
+        <!-- Seção do Formulário de Cadastro -->
+        <section id="secao-cadastro">
+            <h2>Criar Nova Tarefa</h2>
+            <form>
+                <div>
+
+                    <label for="input-titulo">Título da Atividade:</label>
+                    <input type="text" id="input-titulo" required placeholder="Digite o nome da atividade...">
+
+                </div>
+                <div>
+                    <label for="select-prioridade">Prioridade:</label>
+                    <select id="select-prioridade" name="priority">
+                        <option value="low">Baixa</option>
+                        <option value="medium" selected>Média</option>
+                        <option value="high">Alta</option>
+                    </select>
+                </div>
+
+                <button id="btn-cadastrar" type="submit">Cadastrar</button>
+
+            </form>
+        </section>
+        <!-- Seção da Lista de Tarefas (Protótipo Estático) -->
+        <section id="secao-lista">
+            <h2>Minhas Tarefas</h2>
+            <div id="tasks-list">
+                <article>
+                    <input type="checkbox">
+                    <h4>Estudar para a Prova de Web</h4>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvimento de Sistemas Web - 2026</p>
+    </footer>
+</body>
+
+</html>

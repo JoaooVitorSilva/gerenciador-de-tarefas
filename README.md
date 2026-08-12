@@ -1,61 +1,26 @@
-# 📚 Gerenciador de Tarefas
+# 📝 Gerenciador de Tarefas Web
 
-Projeto da disciplina **Desenvolvimento de Sistemas Web** — UniSENAI.
+Este projeto consiste em uma aplicação web acadêmica desenvolvida para fins de estudo e prática de estruturação HTML5 semântica e estilização moderna por meio de classes utilitárias do **Tailwind CSS v4**.
 
-* **Estudante:** João Vitor da Silva
-* **Professor:** Alexandre Bendlin
+A aplicação é responsiva e simula a interface de um fluxo de controle de atividades acadêmicas e pessoais com foco em usabilidade e organização visual.
 
-## 🎯 Objetivo do Projeto
+## 🚀 Recursos Implementados
 
-Desenvolver um gerenciador de tarefas completo e multi-usuário, com autenticação e persistência de dados em SQLite, aplicando na prática conceitos de HTML semântico, estilização com Tailwind CSS, responsividade (Mobile-First) e controle de versão com Git.
+- **Acesso Restrito (Login)**: Formulário elegante para autenticação com inputs adaptados e estilizados para feedback imediato.
+- **Criação de Tarefas**: Formulário interativo estruturado em grid contendo campos de texto para títulos e seleção inteligente de prioridades.
+- **Lista de Atividades**: Protótipo estático com cartões visuais (cards) contendo etiquetas (tags) dinâmicas coloridas que variam de acordo com o nível de prioridade (Alta, Média ou Baixa).
+- **Design Responsivo**: Layout que se adapta automaticamente de celulares a telas de computadores widescreen (Grid fluido, espaçamentos escaláveis).
 
-## 🚀 Funcionalidades
+## 🛠 Tecnologias Utilizadas
 
-- [x] Tela de acesso ao sistema (login)
-- [x] Cadastro de novas tarefas com título e prioridade
-- [x] Listagem de tarefas em grid responsivo (Bento Grid)
-- [ ] Persistência dos dados em SQLite
-- [ ] Autenticação de múltiplos usuários
-- [ ] Marcar tarefas como concluídas
+- **HTML5 Semântico**: Uso de elementos apropriados como `<header>`, `<main>`, `<section>`, `<article>` e `<footer>`.
+- **Tailwind CSS v4**: Utilização das mais recentes classes utilitárias integradas através do compilador do navegador em tempo real (Play CDN).
+- **Fontes do Sistema**: Uso de uma pilha de fontes sans-serif (`font-sans`) de excelente legibilidade e carregamento nativo veloz.
 
-## 🛠️ Tecnologias Utilizadas
+## 💻 Como Visualizar Localmente
 
-- **HTML5** — estruturação semântica das páginas
-- **Tailwind CSS** (via CDN) — estilização, Box Model e responsividade
-- **CSS Grid / Flexbox** — layout Mobile-First com breakpoints (`md:`, `lg:`)
-- **Git & GitHub** — versionamento e histórico do projeto
-- **SQLite** *(planejado)* — persistência dos dados de usuários e tarefas
+Para testar o projeto localmente, você não precisa configurar nada no computador:
 
-## 🏗️ Arquitetura (planejada)
-
-```
-Frontend (Web App)
-        │
-   API Gateway
-    ┌───┴────┐
-Serviço de   Serviço de
-Usuários     Tarefas
-(Auth)
-    │            │
- SQLite       SQLite
-```
-
-## 📁 Estrutura do Projeto
-
-```
-gerenciador-de-tarefas/
-├── .gitignore
-├── index.html          # Versão atual (Grid/Bento Grid)
-├── desafio_aulas_3e4.html
-└── README.md
-```
-
-## ▶️ Como Executar
-
-1. Clone o repositório ou abra no GitHub Codespaces.
-2. Instale a extensão **Live Server** (se estiver rodando localmente no VS Code).
-3. Clique com o botão direito no `index.html` → **Open with Live Server**.
-
-## 📌 Status
-
-🚧 Em desenvolvimento — projeto acadêmico em construção ao longo das aulas da disciplina.
+1. Faça o clone do repositório ou faça o download do arquivo `index.html`.
+2. Abra o arquivo `index.html` diretamente em qualquer navegador moderno (Chrome, Firefox, Safari ou Edge).
+3. Alternativamente, se estiver no VS Code / Codespaces, clique com o botão direito no arquivo e escolha **Open with Five Server** para visualização com recarregamento em tempo real.

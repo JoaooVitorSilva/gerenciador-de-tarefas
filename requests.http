@@ -9,3 +9,17 @@ GET http://localhost:3000/api/health
 
 GET http://localhost:3000/api/version
 
+### Listar todas as tarefas (GET)
+GET http://localhost:3000/api/tasks
+
+### Criar nova tarefa (POST)
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Estudar matemática"
+}
+
+### Deletar tarefa (DELETE)
+DELETE http://localhost:3000/api/tasks/1786580785990
